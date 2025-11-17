@@ -1,0 +1,37 @@
+@media (min-width: 0px) and (max-width: 990px){
+    /* services section start */
+    .img-fluid{
+        max-width: 60%;
+    }
+    .portfolio-gellery .img-fluid{
+        max-width: 100%;
+    }
+    .litest-blog .content-banner{
+        box-shadow: none;
+    }
+    /* services section end */
+
+}
+/* navbar auto dropdown hover start */
+
+@media (min-width: 992px){
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+      }
+      
+    .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+          pointer-events: none;
+      }
+}
+
+/* navbar auto dropdown hover end */
+
+@media (min-width: 992px){
+    .mine-nav .nav-link:hover::after {
+        left: 10%;
+        width: 80%;
+        height: 3px;
+        margin-bottom: -15px;
+    }
+}
